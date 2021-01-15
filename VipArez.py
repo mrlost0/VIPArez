@@ -64,7 +64,7 @@ logo = logo ="""
 
 """
 back = 0
-By Arez Bashdar = []
+successful = []
 cpb = []
 oks = []
 id = []
